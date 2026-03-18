@@ -18,10 +18,17 @@ npm install
 npm run dev
 ```
 
+## Storybook
+
+```bash
+npm run storybook
+```
+
 ## Build
 
 ```bash
 npm run build
+npm run build-storybook
 ```
 
 ## Structure
