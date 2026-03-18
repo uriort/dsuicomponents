@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #111827;
+  background: #f7f8fc;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --ds-canvas: #f7f8fc;
+  --ds-sidebar: #f5f7fb;
+  --ds-surface: #ffffff;
+  --ds-surface-alt: #f9fafb;
+  --ds-primary: #f00056;
+  --ds-primary-hover: #d90452;
+  --ds-primary-soft: #ffe7f0;
+  --ds-secondary: #4f46e5;
+  --ds-ink: #111827;
+  --ds-text-muted: #667085;
+  --ds-text-soft: #98a2b3;
+  --ds-border: #dfe3eb;
+  --ds-border-strong: #c9d1dd;
+  --ds-success: #16a34a;
+  --ds-success-soft: #dcfce7;
+  --ds-danger: #ef4444;
+  --ds-danger-soft: #fee2e2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--ds-ink);
+  background: var(--ds-canvas);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
